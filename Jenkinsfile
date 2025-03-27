@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/lewisjp3'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/lewisjp3/225-lab3-2.git'                   // <------change this
-        KUBECONFIG = credentials('lewisjp3-225')                                             // <------change this
+        KUBECONFIG = credentials('lewisjp3-225-2')                                             // <------change this
     }
 
     stages {
